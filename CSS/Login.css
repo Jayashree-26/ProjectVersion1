@@ -1,0 +1,42 @@
+body{
+    background-color: #eee4e1;
+    padding: 60px; 
+}
+.c1{
+    margin: auto;
+    width: 25%;
+    height: 520px;
+   
+    margin-top: 9%;
+}
+.c2{
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.mb-3 mt-3 p{
+    visibility:hidden;
+    position: absolute;
+}
+.mb-3 mt-3.error p{
+    visibility: visible;
+    color: red;
+}
+.mb-3 mt-3.success p{
+    visibility: visible;
+}
+p{
+    color: red;
+}
+.para{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+.ac{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+}
+

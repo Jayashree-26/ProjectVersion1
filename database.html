@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <title>THE JEWEL GALLERY</title>
+    <link type="text/css" rel="stylesheet" href="database.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="productCode">ID</label>
+                        <input type="text" name="productCode" id="productCode" placeholder="ID">
+                    </div>
+                    <div>
+                        <label for="product">Email id</label>
+                        <input type="text" name="product" id="product" placeholder="Email id">
+                    </div>
+                    <div>
+                        <label for="qty">Password</label>
+                        <input type="password" name="qty" id="qty" placeholder="Password">
+                    </div>
+                    <div>
+                        <label for="perPrice">Confirm Password</label>
+                        <input type="password" name="perPrice" id="perPrice" placeholder="confirm password">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Email id</th>
+                                <th>Password</th>
+                                <th>Updated password</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./database.js"></script>
+</body>
+</html>
